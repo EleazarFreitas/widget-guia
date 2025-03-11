@@ -1,0 +1,221 @@
+#dtHoje {
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 1.3em;
+}
+
+#dtCalendarioPeriodo {
+  font-size: 1.1em;
+  padding: 5px;
+  font-weight: 300;
+  padding-left: 10px;
+  letter-spacing: .03em;
+  margin-top: 5px;
+  font-family: 'Lato', sans-serif;
+  width: 98%;
+  color: #D10000;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.interna__calendario {
+  color: #fff;
+  padding: 25px 11px;
+}
+
+.ui-datepicker {
+  width: 22em !important;
+}
+
+.ui-widget.ui-widget-content {
+  border: 0px !important;
+  box-shadow: 0px 10px 30px rgba(114, 84, 73, .2);
+}
+
+.ui-widget-header {
+  border: 0px !important;
+}
+
+.ui-widget-header {
+  background: rgba(114, 84, 73, .2) !important;
+}
+
+.ui-datepicker .ui-datepicker-title {
+  font-family: 'Lato', sans-serif !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+}
+
+.ui-datepicker th,
+.ui-datepicker td {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 1.2em;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default {
+  border: 0px !important;
+  background: transparent !important;
+  text-align: center !important;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+  color: #fff !important;
+}
+
+.ui-state-default {
+  text-align: center;
+}
+
+#gmTbPeriodos {
+  width: 100%;
+}
+
+.lnctHeader th {
+  padding: 10px;
+}
+
+.lncatlpe,
+.lncatlpert {
+  background: #fff;
+}
+
+.lncatlpe td,
+.lncatlpert td {
+  color: #777;
+  padding: 10px;
+  font-size: 1.3em;
+}
+
+.lncatlpert td {
+  padding: 10px;
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.texto-calendario {
+  padding: 4px;
+  width: 100%;
+  margin-top: 2%;
+  background: rgba(255, 255, 255, .4);
+}
+
+.texto-calendario p {
+  margin: 0px;
+  text-align: center;
+}
+
+.tblGmClnd {
+  width: 100%;
+  background: #FFFFFF;
+}
+
+.tblGmClnd td {
+  text-align: left;
+  padding: 10px 0 10px 19px;
+  color: #D10000;
+  font-size: 1em;
+  letter-spacing: .03em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
+
+.tblGmClnd tr {
+  border: 1px solid #D10000;
+}
+
+.tblGmClnd td:last-child {
+  text-align: right;
+  padding-right: 19px;
+  padding-left: 0;
+  font-size: 1.14em;
+}
+
+.detalhes__calendar {
+  padding: 19px 24px;
+  position: relative;
+}
+
+#boxCalendario {
+  text-align: center;
+  color: #D10000;
+}
+
+#boxCalendario p:first-child {
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: .03em;
+}
+
+.ui-datepicker-trigger {
+  position: absolute;
+  margin-top: 14px;
+  left: 32%;
+}
+
+#calendario-section .ui-widget-header,
+body .ui-widget-header {
+  background: #D10000 !important;
+  color: #fff !important;
+}
+
+.ui-state-highlight,
+body .ui-widget-content .ui-state-highlight,
+body .ui-widget-header .ui-state-highlight {
+  background-color: rgba(209, 0, 0, .5) !important;
+  color: #fff !important;
+  border: 1px solid rgba(209, 0, 0, .5) !important;
+}
+
+.body .ui-state-active,
+body .ui-widget-content .ui-state-active {
+  background-color: rgba(209, 0, 0, 1) !important;
+  color: #fff !important;
+  border: 1px solid #D10000 !important;
+}
+
+.lblcalendariogm {
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  font-family: 'Lato', sans-serif;
+  padding: 5px;
+  background-image: linear-gradient(180deg, #BE0033 0%, #DB0000 100%);
+  color: #fff;
+}
+
+@media screen and (max-width:600px) {
+  .detalhes__calendar {
+    margin-top: 23px;
+  }
+
+  .lncatlpe td {
+    font-size: 1em;
+  }
+
+  #dtCalendarioPeriodo {
+    padding-right: 20px;
+  }
+
+  .texto-calendario {
+    margin-top: 20px;
+  }
+
+  #calendario-section .texto-calendario p {
+    font-size: 1.2rem;
+  }
+
+  .ui-datepicker {
+    width: 100% !important;
+    left: 0px !important;
+  }
+
+  .ui-datepicker-trigger {
+    left: 26%;
+  }
+}

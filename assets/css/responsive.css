@@ -1,0 +1,237 @@
+@media only screen and (max-width:1100px) {
+    .icons-social {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    .icons-social__item1 {
+        padding-right: 10px;
+    }
+    .navbar-header {
+        padding-left: 10px;
+    }
+    .ui-datepicker-trigger {
+        margin-top: 15px;
+        left: 29%;
+    }
+    .destaque__btn {
+        margin-top: -5%;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .no-margin-mb {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar-nav {
+        display: inline !important;
+    }
+    .banner__content-text h1 {
+        font-size: 38px;
+    }
+    .banner__content-text h2 {
+        font-size: 42px;
+    }
+    .banner__content-text a {
+        margin-top: 15%;
+    }
+    .interna__info {
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+    }
+    .destaque__btn {
+        margin-top: -6%;
+    }
+    .motel__content {
+        flex-direction: column;
+    }
+    .motel__fachada {
+        margin-top: -2%
+    }
+    .motel__text {
+        text-align: center;
+        padding: 0 15px;
+    }
+    .motel__btn {
+        padding-top: 23px;
+        padding-bottom: 42px;
+    }
+    .cardapio__text {
+        padding-top: 37px;
+        padding-bottom: 57px;
+    }
+    .cardapio__text p {
+        padding-bottom: 16px;
+    }
+    .localizacao {
+        margin-bottom: 0;
+        margin-top: 8px;
+    }
+    .localizacao__adress h2 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .localizacao__text {
+        padding-top: 32px;
+    }
+    .localizacao__adress p {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    #motel {
+        margin-top: 0;
+        padding-bottom: 15px;
+    }
+    #promo {
+        padding: 12px 0 0;
+    }
+    #promo .row{
+        justify-content: center;
+    }
+    .promo__text .destaque__title {
+        margin-bottom: 40px;
+    }
+    .motel__text {
+        width: 100%;
+    }
+    .promo__text {
+        display: flex !important;
+    }
+    .promo__text p {
+        width: 100%;
+    }
+    /* footer */
+    .footer-mob li {
+        width: 75%;
+        margin: 0 auto 15px;
+        text-align: center;
+    }
+    .footer-mob a {
+        display: block;
+    }
+    .footer-mob {
+        width: 100%;
+        position: absolute;
+        background-color: rgba(52, 2, 2, 1);
+        color: #fff;
+    }
+    .footer-mob ul>li {
+        margin-top: 1%;
+    }
+    .footer-mob ul {
+        transform: translateY(-22px);
+    }
+    .footer-mob p {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .footer-mob ul>li>a {
+        margin-bottom: 20px;
+    }
+    .footer-mob li:last-child, .footer-mob ul {
+        margin-bottom: 0;
+    }
+    .footer-logo__icons {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        text-align: center;
+        transform: translateY(-18px);
+    }
+    .assinatura {
+        background-color: #240000;
+        padding: 17px 0;
+        padding-bottom: 80px;
+    }
+    .assinatura p {
+        margin-bottom: 0;
+    }
+    /* internas */
+    #suites {
+        padding: 30px 0 15px;
+    }
+    #suites .outras__suites-bottom {
+        margin-bottom: 15px;
+    }
+    #suites .outras__suites {
+        width: 100%;
+        padding: 0;
+    }
+    .localizacao--flex p {
+        text-align: center;
+    }
+    #outras {
+        margin-bottom: 0;
+    }
+    .motel .motel__text {
+        width: 100%;
+    }
+    .promo__image img {
+        width: auto;
+    }
+    .promo__image {
+        margin-bottom: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .descontos .row{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .outras__suites {
+        width: 331px;
+        margin-left: 10px;
+    }
+    .motel .container {
+        flex-direction: column;
+        margin-bottom: 12%;
+    }
+    .contact__box {
+        width: 100%;
+        padding: 7.5% 10%;
+    }
+    .contact__inputs {
+        width: 100%;
+    }
+    .topo {
+        padding: 20% 15px 15%;
+    }
+    .interna__calendario {
+        padding: 0 0 25px;
+    }
+    .interna__itens {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .destaque__btn {
+        margin-top: -10%;
+    }
+    .destaque__btn {
+        padding: 30px 0 40px;
+    }
+    .btn {
+        padding: 9px 2em;
+    }
+    .interna__flickity .flickity-page-dots {
+        bottom: 15%;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .outras__suites {
+        width: 280px;
+    }
+    .ui-datepicker-trigger {
+        left: 25%;
+    }
+    .motel__text p {
+        width: 300px;
+    }
+}
